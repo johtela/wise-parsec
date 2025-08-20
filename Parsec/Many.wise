@@ -1,0 +1,3 @@
+Parsec/Many«"# Parsing Multiple Terms
+
+This module contains additional combinators that are useful when parsing sequences or expressions. They are adapted from the original Parsec library."¸ import«Control/Monad¸ Data/Array¸ Parsec/Parser»¸ type«"Type definition for a binary function that has the same domain and range type. Effectively a monoid append operation without the restriction that it has to be associative."¸ alias«BinaryOp«a»¸ ->«a¸ a¸ a»»»¸ define«oneOrMoreSeparatedBy«->«Parser«a¸ i»¸ Parser«b¸ i»¸ Parser«[«a»¸ i»»¸ ->«parser¸ separator¸ mdo«mlet«x¸ parser»¸ mlet«xs¸ zeroOrMore«>>«separator¸ parser»»»¸ mreturn«[«x¸ ...«xs»»»»»»»»
