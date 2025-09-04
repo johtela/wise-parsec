@@ -1,4 +1,4 @@
 Parsec/Input
 Parsec/Lexer
-Parsec/Parser
 Parsec/Many
+Parsec/Parser
