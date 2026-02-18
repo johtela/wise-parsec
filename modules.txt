@@ -1,5 +1,0 @@
-Parsec/Input
-Parsec/Lexer
-Parsec/Many
-Parsec/Parser
-Test/ExprParser
